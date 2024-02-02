@@ -32,8 +32,6 @@ public class JackdawApiConfig {
     private longApi longApi;
     @Autowired
     private shortApi shortApi;
-    @Autowired
-    private shortApi aliyunMessageApi;
 
     @Bean
     public JackdawApiClient jackdawApiClient() {
